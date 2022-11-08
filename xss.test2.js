@@ -6,3 +6,7 @@ function test() {
     script.src = "https://alents.github.io/static/xss.test3.js";
     document.getElementsByTagName('body')[0].appendChild(script);    
 }
+
+function onClick() {
+    alert('onClick-outer');
+}
